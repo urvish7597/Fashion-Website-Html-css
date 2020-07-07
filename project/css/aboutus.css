@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.headerbackground {
+    background-image: url(../assets/images/backgroundimage_page1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: auto;
+}
+
+.headerbar {
+    background-color: white;
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#icon {
+    background-image: url(../assets/images/logo1.png);
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#navmenu {
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+    position: relative;
+}
+
+#navmenu ul {}
+
+#navmenu ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+#navmenu ul li a {
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+    font-size: 20px
+}
+
+
+/*-------------------------*/
+.main_content {
+
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    filter: drop-shadow(1px 1px 5px gray);
+    border-radius: 5px;
+
+}
+
+
+.video_content {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.video_content iframe {
+    width: 80%;
+    height: 450px;
+}
+
+.content_para {
+    width: 60%;
+    margin: auto;
+    font-size: 60px;
+
+}
+
+/*-------------------*/
+.content {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.article {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+#content_img1 {
+    width: 30%;
+    height: 30%;
+    margin-left: 3%;
+
+}
+
+.content_par1 {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    font-size: 25px;
+    color: gray;
+}
+
+#content_img2 {
+    width: 30%;
+    height: 30%;
+    margin-right: 3%;
+
+}
+
+.content_par2 {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    font-size: 25px;
+    color: gray;
+}

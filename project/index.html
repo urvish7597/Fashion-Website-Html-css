@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Fashion Trends</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navmenu");
+            var y = document.getElementById("nav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                y.style.visibility = "visible";
+            } else {
+                x.className = "topnav";
+                y.style.visibility = "hidden";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="headerbar">
+            <div id="icon"></div>
+            <div id="navmenu" class="topnav">
+                <a class="nav" href="index.html"><label>Home</label></a>
+                <a class="nav" href="register.html"><label>Register</label></a>
+                <a class="nav" href="women.html"><label>Women</label></a>
+                <a class="nav" href=men.html><label>Men</label></a>
+                <a class="nav" href="aboutus.html"><label>About Us</label></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="headerbackground"></div>
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="assets/images/women_pic11.jpg" style="width:100%">
+            <img src="assets/images/women_black_coat.jpg" style="width:100%">
+            <img src="assets/images/women_orange_coat_winter.jpg" style="width:100%">
+            <img src="assets/images/women_tigerprint_coat.jpg" style="width:100%">
+            <img src="assets/images/women_pic5.jpg" style="width:100%">
+            <img src="assets/images/women_pic5a.jpg" style="width:100%">
+            <img src="assets/images/women_pic6.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="assets/images/women_pic6a.jpg" style="width:100%">
+            <img src="assets/images/women_pic1.jpg" style="width:100%">
+            <img src="assets/images/women_pic2.jpg" style="width:100%">
+            <img src="assets/images/women_pic3.jpg" style="width:100%">
+            <img src="assets/images/women_pic4.jpg" style="width:100%">
+            <img src="assets/images/Yellow_Winter_Jacket-Short.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="assets/images/winter_brown_coat.jpg" style="width:100%">
+            <img src="assets/images/winter_denim_jacket.jpg" style="width:100%">
+            <img src="assets/images/winter_leather_coat.png" style="width:100%">
+            <img src="assets/images/winter_lightblue_coat.jpg" style="width:100%">
+            <img src="assets/images/winter_denim_mufler.jpg" style="width:100%">
+            <img src="assets/images/men_pic7.jpg" style="width:100%">
+            <img src="assets/images/men_pic8.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="assets/images/men_pic1.jpg" style="width:100%">
+            <img src="assets/images/men_pic2.jpg" style="width:100%">
+            <img src="assets/images/men_pic3.jpg" style="width:100%">
+            <img src="assets/images/men_pic4.jpg" style="width:100%">
+            <img src="assets/images/men_pic5.jpg" style="width:100%">
+            <img src="assets/images/men_pic6.jpg" style="width:100%">
+            <img src="assets/images/men_pic9.jpg" style="width:100%">
+        </div>
+    </div>
+    <footer>
+        <div class="footertext1">
+            <label>Copyrights © All Rights Reserved by U_K Patel Pvt Ltd.</label>
+        </div>
+        <div class="footertext2">
+            <label>Developed by Urvish Patel & Keyur Patel</label>
+        </div>
+    </footer>
+</body></html>

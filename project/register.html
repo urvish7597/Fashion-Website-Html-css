@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Fashion Trends | register</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navmenu");
+            var y = document.getElementById("nav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                y.style.visibility = "visible";
+            } else {
+                x.className = "topnav";
+                y.style.visibility = "hidden";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="headerbar">
+            <div id="icon"></div>
+            <div id="navmenu" class="topnav">
+                <a class="nav" href="index.html"><label>Home</label></a>
+                <a class="nav" href="register.html"><label>Register</label></a>
+                <a class="nav" href="women.html"><label>Women</label></a>
+                <a class="nav" href=men.html><label>Men</label></a>
+                <a class="nav" href="aboutus.html"><label>About Us</label></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="main_content">
+        <div class="title">
+            <p>Registration</p>
+        </div>
+        <div class="form_container">
+            <form action="#">
+
+                <div class="row">
+                    <input type="text" placeholder="Write Your Firstname" required></div>
+                <div class="row">
+                    <input type="text" placeholder="Write Your Lastname" required></div>
+                <div class="row">
+                    <input type="text" placeholder="Enter your Birthdate" required> </div>
+                <div class="row radio_button">
+                    <div class="radio_male">
+                        <input type="radio" name="gender" required><label for="male">Male</label>
+                    </div>
+                    <div class="radio_female">
+                        <input type="radio" name="gender" required><label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="tel" placeholder="Enter your Mobile Number" required> </div>
+                <div class="row">
+                    <input type="text" placeholder="Write Your App. Number" required></div>
+                <div class="row">
+                    <input type="text" placeholder="Write Your Addressline1" required></div>
+                <div class="row">
+                    <input type="text" placeholder="Write Your Addressline2"></div>
+                <div class="row col">
+                    <div class="col-50">
+                        <select id="province" name="province" required>
+                            <option value="option">Select Your Province</option>
+                            <option value="ontario">Ontario</option>
+                            <option value="Quebec">Quebec</option>
+                            <option value="Nova Scotia">Nova Scotia</option>
+                            <option value="New Brunswick">New Brunswick</option>
+                            <option value="Manitoba">Manitoba</option>
+                            <option value="Biritish Columbia">Biritish Columbia</option>
+                            <option value="Prince Edward Island">Prince Edward Island</option>
+                            <option value="Saskatchewan">Saskatchewan</option>
+                            <option value="Alberta">Alberta</option>
+                            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                        </select>
+                    </div>
+                    <div class="col-50 col_pad">
+                        <input type="text" placeholder="Write Your Country" value="Canada" disabled>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <input type="email" placeholder="Write Your Email-id" required></div>
+                <div class="row">
+                    <input type="password" placeholder="Write Your Password" required></div>
+                <div class="row">
+                    <input type="password" placeholder="Confirm Your Password" required></div>
+                <div class="row">
+                    <input type="submit" value="Submit" class="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footertext1">
+            <label>Copyrights © All Rights Reserved by U_K Patel Pvt Ltd.</label>
+        </div>
+        <div class="footertext2">
+            <label>Developed by Urvish Patel & Keyur Patel</label>
+        </div>
+    </footer>
+</body></html>

@@ -1,0 +1,95 @@
+.headerbar {
+    background-color: white;
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#icon {
+    background-image: url(../assets/images/logo1.png);
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navmenu {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#navmenu a {
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.nav {
+    visibility: visible;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .topnav a:not(last-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        z-index: 2;
+    }
+
+    .responsive .nav > label {
+        color: white;
+    }
+
+    .responsive .nav {
+        position: relative;
+        left: 30px;
+        bottom: -30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #43041C;
+        width: 200px;
+        padding-left: 50px;
+        border-radius: 5px;
+        margin-top: 1px;
+        opacity: 1;
+    }
+
+    .responsive .nav:hover {
+        background-color: black;
+    }
+}
+
+footer {
+    background-color: #43041C;
+}
+
+footer > div {
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+}

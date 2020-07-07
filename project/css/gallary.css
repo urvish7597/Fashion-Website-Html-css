@@ -1,0 +1,69 @@
+/* Create four equal columns that sits next to each other */
+.column {
+    line-height: 0;
+    column-count: 5;
+    column-gap: 0px;
+}
+
+.photo_container {
+    margin: 10px 20px;
+}
+
+.column img {
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    box-shadow: 1px 1px 7px grey;
+    overflow: hidden;
+}
+
+.column img:hover {
+    transform: scale(1.1);
+    filter: contrast(150%);
+}
+
+.column img {
+    transition: transform .5s ease;
+}
+
+footer {
+    background-color: #43041C;
+    height: 100px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    .column {
+        column-count: 4;
+    }
+}
+
+@media (max-width: 1000px) {
+    .column {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 800px) {
+    .column {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    .column {
+        column-count: 1;
+    }
+}
+.title{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    height: 40px;
+    color: white;
+    background: #43041C;
+    padding-top: 10px;
+    padding-left: 10px;
+}

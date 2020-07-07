@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Fashion Trends | About Us</title>
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script>
+        function myFunction() {
+            var x = document.getElementById("navmenu");
+            var y = document.getElementById("nav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                y.style.visibility = "visible";
+            } else {
+                x.className = "topnav";
+                y.style.visibility = "hidden";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="headerbar">
+            <div id="icon"></div>
+            <div id="navmenu" class="topnav">
+                <a class="nav" href="index.html"><label>Home</label></a>
+                <a class="nav" href="register.html"><label>Register</label></a>
+                <a class="nav" href="women.html"><label>Women</label></a>
+                <a class="nav" href=men.html><label>Men</label></a>
+                <a class="nav" href="aboutus.html"><label>About Us</label></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="main_content">
+        <div class="video_content">
+            <iframe src="https://www.youtube.com/embed/MQgfLINv7hM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="content">
+            <div class="article">
+                <p class="content_par1">
+                    We spend months finding the best factories around the world—the same ones that produce your favorite designer labels. We visit them often and build strong personal relationships with the owners. Each factory is given a compliance audit to evaluate factors like fair wages, reasonable hours, and environment. Our goal? A score of 90 or above for every factory.</p>
+                <img id="content_img1" src="assets/images/aboutus1.jpg" alt="About Us">
+            </div>
+
+            <div class="article">
+                <img id="content_img2" src="assets/images/aboutus2.jpg" alt="About Us">
+                <p class="content_par2">
+                    At Fashion Trend, we’re not big on trends. We want you to wear our pieces for years, even decades, to come. That’s why we source the finest materials and factories for our timeless products— like our Grade-A cashmere sweaters, Italian shoes, and Peruvian Pima tees.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footertext1">
+            <label>Copyrights © All Rights Reserved by U_K Patel Pvt Ltd.</label>
+        </div>
+        <div class="footertext2">
+            <label>Developed by Urvish Patel & Keyur Patel</label>
+        </div>
+    </footer>
+</body></html>
